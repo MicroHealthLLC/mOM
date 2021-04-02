@@ -1,0 +1,31 @@
+{
+  "name": "mOM",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon server.js server.js --ignore 'client/'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MicroHealthLLC/mOM.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MicroHealthLLC/mOM/issues"
+  },
+  "homepage": "https://github.com/MicroHealthLLC/mOM#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.3",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "concurrently": "^6.0.0",
+    "nodemon": "^2.0.7"
+  }
+}
